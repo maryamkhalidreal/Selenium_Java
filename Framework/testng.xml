@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MYFrameWorkSuite">
+	<listeners><listener class-name="Reporter.TestReporter"></listener></listeners>
+  <test thread-count="5" name="Smoke">
+    <classes>
+      <class name="Tests.Login.LoginTests"/>
+      <class name="Tests.Login.LoginTests2"/>
+    </classes>
+  </test> <!-- Smoke -->
+</suite> <!-- MYFrameWorkSuite -->
